@@ -1,0 +1,16 @@
+{
+  "name": "electron-demo",
+  "version": "1.0.0",
+  "description": "Open photoshop with link",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Konogan",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^7.1.2"
+  },
+  "dependencies": {}
+}

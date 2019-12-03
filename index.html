@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Open Link</title>
+  </head>
+  <body>
+    <h1>Open Link</h1>
+    <div class="links">
+      <a href="/Users/konogan.cossec/Desktop/fichiers/fichier.png">PNG</a><br />
+      <a href="/Users/konogan.cossec/Desktop/fichiers/fichier.jpg">JPG</a><br />
+      <a href="/Users/konogan.cossec/Desktop/fichiers/fichier.tif">TIF</a><br />
+      <a href="/Users/konogan.cossec/Desktop/fichiers/fichier.psd">PSD</a>
+    </div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
