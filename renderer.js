@@ -3,6 +3,8 @@ const { shell, fs } = require("electron");
 
 var imglinks = document.querySelectorAll(".links>a");
 
+// TODO : test if linked file is available, if not disable it and mark it for user
+
 Array.from(imglinks).forEach(link => {
   link.addEventListener("click", event => {
     event.preventDefault();
